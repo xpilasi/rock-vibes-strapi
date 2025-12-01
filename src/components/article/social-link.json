@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_social_links",
+  "info": {
+    "displayName": "Social Link",
+    "description": "Social media link for authors"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "twitter",
+        "linkedin",
+        "instagram",
+        "facebook",
+        "website"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_article_authors",
+  "info": {
+    "displayName": "Author",
+    "description": "Author information for articles"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bio": {
+      "type": "text"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "role": {
+      "type": "string",
+      "default": "Staff Writer"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.social-link"
+    }
+  }
+}
