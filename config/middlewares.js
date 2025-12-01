@@ -14,6 +14,7 @@ module.exports = [
   },
   'strapi::poweredBy',
   'strapi::query',
+  'global::gallery-upload', // Custom middleware for gallery images
   'strapi::body',
   'strapi::session',
   'strapi::favicon',
